@@ -75,6 +75,9 @@ public class Main {
                     " Track number = " + artist.getTrack());
         }
 
+        //inserting song
+        datasource.insertSong("Bird Dog", "Everly Brothers", "All-Time Greatest Hits", 7);
+
         datasource.close();
     }
 }
